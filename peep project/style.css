@@ -1,0 +1,132 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'goth';
+    src: url('OldLondon.ttf') format('truetype'), url('Olondona.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+/* Acrescentar negrito, italico, links e, musicas ou feets  */ 
+
+body {
+    background-color: rgb(50, 52, 58);
+}
+a:visited {
+    color: black;
+}
+h1 {
+    font-family: 'goth';
+    font-size: 100px;
+}
+header.begin {
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgb(201, 160, 199),rgb(248, 248, 248));
+    padding: 15px 15px 0px 15px;
+    margin-left: -8px ;
+    margin-right: -8px;
+    margin-bottom: 5px;
+    margin-top: -8px;
+}  
+nav {
+    text-align: center;
+    padding: 10px;
+    
+}
+nav > a {
+    padding: 10px 50px;
+    margin-left: -12px;
+    margin-right: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+ 
+nav > a:hover {
+    background-color:rgb(233, 211, 231) ;
+    color: rgb(39, 12, 65);
+    transition-duration: 0.3s;
+    border-radius: 3px;
+}
+div.peepi {
+    text-align: center; 
+    padding: 1px;
+}
+div.who {
+    padding-right: 150px;
+    padding-left: 150px;
+}
+h2 {
+    font-family: 'Goth';
+    background-image: linear-gradient(to right,rgb(201, 160, 199), rgb(248, 248, 248), rgb(201, 160, 199));
+    
+}
+main {
+    text-align: justify;
+    min-width: 320px;
+    max-width: 900px ;
+    margin: auto;
+}
+
+main p {
+    text-indent: 30px;
+    margin: 15px;
+    text-align: justify;
+    line-height: 1em;
+}
+aside {
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px;
+    background-color: rgb(241, 201, 239) ;
+}
+ul {
+ text-align: left;
+ columns: 2;
+ padding-bottom: 20px;
+ 
+}
+aside p {
+    padding-bottom: 20px;
+    margin-left: 0px ;
+    margin-right: 0px ;
+    margin-bottom: -25px;
+    text-align: center;
+}
+article {
+    text-align: center;
+    background-color: rgb(201, 160, 199) ;
+    padding: 5px;
+    font-size: 25px;
+    letter-spacing: 1px;
+   
+}
+picture.mother {
+    width: 100%;
+}
+article > p {
+    margin: 50px;
+
+}
+div.video {
+    margin-bottom: 25px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 50%;
+}   
+div.video > iframe {
+position: absolute;
+top: 5% ;
+left: 5% ;
+width: 90%;
+height: 90%;
+}
+footer.rodape{
+    background-image: linear-gradient(to bottom, rgb(248, 248, 248), rgb(201, 160, 199));
+    margin-left: -8px ;
+    margin-right: -8px;
+    margin-bottom: -8px;
+    height: 100px;
+    background-color: white;
+    text-align: center;
+}
+footer p {
+    padding: 30px
+}
+/* Video diminuir ao diminuir aba  */ 
